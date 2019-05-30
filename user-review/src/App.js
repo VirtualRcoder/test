@@ -9,8 +9,10 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar /><br/><br/><br/>
-        <Slideshow />
+	<div class='container'>
+        <Slideshow /><br/><br/>
        	<Body />
+      </div> 	
       </React.Fragment>
     );
   }
